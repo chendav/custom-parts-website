@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Parts - From imagination to reality</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="lang" key="nav-home">Home</a></li>
+                <li><a href="#services" class="lang" key="nav-services">Services</a></li>
+                <li><a href="#contact" class="lang" key="nav-contact">Contact</a></li>
+                <li><button id="languageToggle" onclick="toggleLanguage()">中文</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 class="lang" key="slogan">One-Stop Shop for Custom Parts</h1>
+            <p class="lang" key="sub-slogan">From imagination to reality, all in one place</p>
+            <a href="#one-stop-service" class="cta-button lang" key="learn-more">Learn More</a>
+        </section>
+
+        <section id="one-stop-service">
+            <div class="container">
+                <h2 class="lang" key="one-stop-title">One-Stop Custom Parts Solution</h2>
+                <p class="lang" key="one-stop-description">We offer a comprehensive one-stop service for all your custom parts needs. From plastic to metal, PCB to other specialized components, get everything you need in one place without the hassle of dealing with multiple suppliers.</p>
+                <ul>
+                    <li class="lang" key="one-stop-benefit-1">Save time and effort</li>
+                    <li class="lang" key="one-stop-benefit-2">Consistent quality</li>
+                    <li class="lang" key="one-stop-benefit-3">Streamlined communication</li>
+                    <li class="lang" key="one-stop-benefit-4">Cost-efficient</li>
+                </ul>
+                <a href="#contact" class="cta-button lang" key="get-quote">Get a Quote</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2 class="lang" key="our-services">Our Services</h2>
+            <div class="service-grid">
+                <div class="service-item" id="plastic-service">
+                    <div class="service-content">
+                        <h3 class="lang" key="plastic-parts">Plastic Parts</h3>
+                        <p class="lang" key="plastic-description">Custom plastic parts for various applications</p>
+                    </div>
+                </div>
+                <div class="service-item" id="metal-service">
+                    <div class="service-content">
+                        <h3 class="lang" key="metal-processing">Metal Processing</h3>
+                        <p class="lang" key="metal-description">Precision metal parts and components</p>
+                    </div>
+                </div>
+                <div class="service-item" id="pcb-service">
+                    <div class="service-content">
+                        <h3 class="lang" key="pcb-customization">PCB Customization</h3>
+                        <p class="lang" key="pcb-description">Tailored PCB design and manufacturing</p>
+                    </div>
+                </div>
+                <div class="service-item" id="other-service">
+                    <div class="service-content">
+                        <h3 class="lang" key="other-services">Other Services</h3>
+                        <p class="lang" key="other-description">Additional customization options available</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="lang" key="contact-us">Contact Us</h2>
+            <form action="https://formsubmit.co/chen00301@outlook.com" method="POST">
+                <label for="name" class="lang" key="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email" class="lang" key="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="requirement" class="lang" key="requirement">Requirement Description:</label>
+                <textarea id="requirement" name="requirement" required></textarea>
+
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_next" value="https://yourdomain.com/thanks.html">
+                <input type="hidden" name="_subject" value="New Custom Parts Inquiry!">
+
+                <button type="submit" class="lang" key="submit">Submit Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Custom Parts. <span class="lang" key="rights">All rights reserved.</span></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
